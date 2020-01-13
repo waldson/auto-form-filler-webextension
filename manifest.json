@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "Auto Form Filler",
+    "version": "0.0.1",
+    "author": "waldsonpatricio@gmail.com",
+    "icons": {
+        "48": "assets/img/logo.png"
+    },
+    "browser_action": {
+        "default_icon": "assets/img/action_logo.png",
+        "default_title": "Auto Form Filler"
+    },
+    "options_ui": {
+        "page": "settings.html",
+        "open_in_tab": true,
+        "browser_style": false
+    },
+    "permissions": ["activeTab", "tabs", "storage", "unlimitedStorage"],
+    "background": {
+        "scripts": ["dist/app.js"]
+    },
+    "commands": {
+        "fill-forms": {
+            "suggested_key": {
+                "default": "Alt+J"
+            },
+            "description": "Fill forms"
+        },
+        "show-settings": {
+            "suggested_key": {
+                "default": "Alt+Shift+J"
+            },
+            "description": "Show Settings"
+        }
+    }
+}
