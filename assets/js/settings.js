@@ -11,7 +11,6 @@ window.browser = (function() {
     window.chrome;
 })();
 
-
 new Vue({
   store,
   el: '#app',

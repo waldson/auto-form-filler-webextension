@@ -134,9 +134,6 @@ export default {
   components: {
     RuleEditor,
     SettingsEditor
-  },
-  mounted() {
-    console.warn(this.rules);
   }
 }
 </script>

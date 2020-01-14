@@ -113,13 +113,25 @@ function _runFunction(code, jQuery, input, faker, values) {
   }
 }
 
+function setValue($input, text) {
+  // $input.trigger({type: 'keydown', key: ' '});
+  // $input.val(text);
+  // return;
+  $input.val(text);
+  var changeEvent = new Event('change');
+  var inputEvent = new Event('input');
+  var input = $input[0];
+  input.dispatchEvent(inputEvent);
+  input.dispatchEvent(changeEvent);
+}
+
 if (__aff_state.locale) {
   faker__WEBPACK_IMPORTED_MODULE_0___default.a.locale = __aff_state.locale;
 }
 
 var values = {};
-document.querySelectorAll('[name]').forEach(function (item) {
-  var $item = jquery__WEBPACK_IMPORTED_MODULE_1___default()(item);
+jquery__WEBPACK_IMPORTED_MODULE_1___default()('[name]').filter(':input').each(function () {
+  var $item = jquery__WEBPACK_IMPORTED_MODULE_1___default()(this);
   var rules = __aff_state.rules;
   var name = $item.attr('name');
 
@@ -136,7 +148,7 @@ document.querySelectorAll('[name]').forEach(function (item) {
         case 'static':
         case 'static_long':
           values[name] = rule.value;
-          $item.val(rule.value).keypress();
+          setValue($item, rule.value);
           break;
 
         case 'dynamic':
@@ -144,7 +156,7 @@ document.querySelectorAll('[name]').forEach(function (item) {
 
           if (result) {
             values[name] = result;
-            $item.val(result).keypress();
+            setValue($item, result);
             return;
           }
 

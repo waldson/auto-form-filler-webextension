@@ -1,3 +1,4 @@
+import './browser-polyfill';
 import Vue from 'vue';
 import Vuex from 'vuex';
 import VuexWebExtensions from 'vuex-webextensions';
@@ -39,6 +40,11 @@ const store = {
       });
       // state.rules.push(newRule);
     },
+    reloadState(state, newState) {
+      state.rules        = newState.rules;
+      state.locale       = newState.locale;
+      state.globalScript = newState.globalScript;
+    },
     deleteRule(state, rule) {
       const index = state.rules.findIndex(function (el) {
         if (el.id == rule.id) {
@@ -50,9 +56,6 @@ const store = {
         return;
       }
       state.rules.splice(index, 1);
-    },
-    incrementCounter(state) {
-      state.count += 1;
     },
     updateFakerLocale(state, locale) {
       state.locale = locale;
@@ -69,8 +72,19 @@ const store = {
   getters: {}
 };
 
-export default new Vuex.Store({
-  ...store,
-  plugins: [VuexWebExtensions()]
+ const vuexStore = new Vuex.Store(store);
+
+vuexStore.subscribe((mutation, state) => {
+  window.browser.storage.local.set({
+    state: JSON.parse(JSON.stringify(state))
+  });
+});
+window.browser.storage.local.get('state').then((response) => {
+  if (response.state) {
+    vuexStore.commit('reloadState', response.state);
+  }
+}).catch(e => {
+  console.error(e);
 });
 
+export default vuexStore;

@@ -11,6 +11,21 @@ function _runFunction(code, jQuery, input, faker, values) {
   }
 }
 
+function setValue($input, text) {
+  // $input.trigger({type: 'keydown', key: ' '});
+  // $input.val(text);
+  // return;
+  $input.val(text);
+  const changeEvent = new Event('change');
+  const inputEvent  = new Event('input');
+
+  const input       = $input[0];
+
+  input.dispatchEvent(inputEvent);
+  input.dispatchEvent(changeEvent);
+}
+
+
 
 if (__aff_state.locale) {
   faker.locale = __aff_state.locale;
@@ -18,8 +33,8 @@ if (__aff_state.locale) {
 
 const values = {};
 
-document.querySelectorAll('[name]').forEach((item) => {
-  var $item   = jQuery(item);
+jQuery('[name]').filter(':input').each(function () {
+  var $item   = jQuery(this);
   const rules = __aff_state.rules;
 
   const name = $item.attr('name');
@@ -37,13 +52,13 @@ document.querySelectorAll('[name]').forEach((item) => {
         case 'static':
         case 'static_long':
           values[name] = rule.value;
-          $item.val(rule.value).keypress();
+          setValue($item, rule.value);
           break;
         case 'dynamic':
           const result = _runFunction(rule.value, jQuery, $item, faker, values);
           if (result) {
             values[name] = result;
-            $item.val(result).keypress();
+            setValue($item, result);
             return;
           }
         default:
