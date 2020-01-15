@@ -1,4 +1,8 @@
-# TO-DO to version 1
+# AFF - Auto Form Filler
+
+Webextension to fill forms with dummy data.
+
+## TO-DO to version 1
 
 - option to import sample rules
 - import/export rules
