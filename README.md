@@ -2,6 +2,8 @@
 
 Webextension to fill forms with dummy data.
 
+![Settings Screen](screenshots/setings.png)
+
 ## TO-DO to version 1
 
 - option to import sample rules
@@ -12,8 +14,7 @@ Webextension to fill forms with dummy data.
 - enable/disable rules
 - documentation
 - field to test dynamic output
-- ? video of it working
 
-# Known issues
+## Known issues
 
-- pressing backspace inside code editor sometimes moves cursor to first position.
+- pressing backspace inside code editor sometimes moves cursor to first position
