@@ -1,20 +1,17 @@
 import faker from 'faker';
 import jQuery from 'jquery';
 
-function _runFunction(code, jQuery, input, faker, values) {
+function _runFunction(code, jQuery, input, faker, values, matches) {
   const prefixScript = __aff_state.globalScript ? __aff_state.globalScript : '';
   try {
-    return (new Function('input, faker, $, values', prefixScript + code + ''))(input, faker, jQuery, values);
+    return (new Function('input, faker, $, values, matches', prefixScript + code + ''))(input, faker, jQuery, values, matches);
   } catch (e) {
-    console.error(e.getMessage());
+    console.error('Validation error: ' + e.message);
     return null;
   }
 }
 
 function setValue($input, text) {
-  // $input.trigger({type: 'keydown', key: ' '});
-  // $input.val(text);
-  // return;
   $input.val(text);
   const changeEvent = new Event('change');
   const inputEvent  = new Event('input');
@@ -48,6 +45,7 @@ jQuery('[name]').filter(':input').each(function () {
     const regex = new RegExp(rule.regex);
 
     if (regex.test(name)) {
+      const matches = regex.exec(name);
       switch (rule.valueType) {
         case 'static':
         case 'static_long':
@@ -55,7 +53,7 @@ jQuery('[name]').filter(':input').each(function () {
           setValue($item, rule.value);
           break;
         case 'dynamic':
-          const result = _runFunction(rule.value, jQuery, $item, faker, values);
+          const result = _runFunction(rule.value, jQuery, $item, faker, values, matches);
           if (result) {
             values[name] = result;
             setValue($item, result);
