@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="164.77382mm"
+   height="164.77382mm"
+   viewBox="0 0 164.77382 164.77382"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (unknown)"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
    sodipodi:docname="aff.svg"
    inkscape:export-filename="/home/waldson/www/auto-form-filler/assets/img/action_logo.png"
    inkscape:export-xdpi="7.4000001"
@@ -28,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-156.57956"
-     inkscape:cy="95.075635"
+     inkscape:zoom="0.1254647"
+     inkscape:cx="-1254.3835"
+     inkscape:cy="387.71389"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1054"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-height="1080"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
@@ -47,81 +47,59 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(372.67262,-106.13393)">
+    <path
+       inkscape:connector-curvature="0"
+       id="rect857"
+       d="m -371.17261,107.63393 h 161.77382 v 161.77382 h -161.77382 z"
+       style="opacity:1;vector-effect:none;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -248.32839,151.47917 h 25.4951 v 0.75596"
+       id="path10"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path12"
+       d="m -248.32839,225.5625 h 25.4951 v 0.75595"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -234.83084,151.85715 v 72.57143"
+       id="path14"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m -346.35798,215.59654 q -5.94469,0 -9.39535,-3.314 -1.63992,-1.57158 -2.56237,-3.68981 -0.92245,-2.15239 -0.92245,-5.1589 0,-6.32051 4.30478,-9.66868 4.23645,-3.31399 12.57269,-3.31399 h 8.43874 v -0.99079 q 0,-2.18655 -0.58081,-3.8948 -0.5808,-1.70824 -1.74241,-2.76736 -1.12744,-1.02494 -2.97235,-1.53742 -1.8449,-0.51247 -4.30478,-0.51247 -3.24567,0 -6.5255,0.92245 -3.314,0.92245 -6.38884,2.69903 v -6.28635 q 1.43493,-0.54663 3.17734,-1.09327 1.74241,-0.54664 3.51899,-0.92246 3.109,-0.64913 6.25218,-0.64913 2.42571,0 4.40727,0.37581 1.98157,0.34165 3.68981,1.05912 1.57159,0.6833 2.97235,1.74241 1.43493,1.02495 2.42571,2.39154 0.71747,0.99079 1.16161,2.08406 0.44414,1.09328 0.6833,2.15239 0.54664,2.49404 0.54664,7.55045 v 7.82377 q 0.0683,1.98157 0.10249,3.48482 0.0342,1.50326 0.20499,2.80153 0.17083,1.43492 0.37582,2.69902 0.23915,1.26411 0.40997,1.91324 0.23916,1.05911 0.54664,2.01573 0.30749,0.92245 0.37582,1.09328 h -6.32051 q -0.17083,-0.40998 -0.44415,-1.19577 -0.23915,-0.81996 -0.47831,-1.77658 -0.17082,-0.75163 -0.34165,-1.50326 -0.13666,-0.78579 -0.20499,-1.33243 -0.99078,1.70825 -2.56236,3.04068 -1.53743,1.33243 -3.04068,2.11823 -1.63992,0.85412 -3.48483,1.22993 -1.81074,0.40998 -3.8948,0.40998 z m 1.29827,-5.2614 q 5.1589,0 8.13125,-3.62148 3.00652,-3.68981 3.00652,-9.94199 v -1.40076 h -7.96043 q -5.46639,0 -8.26791,1.91323 -1.46909,0.99078 -2.15239,2.45988 -0.64914,1.43492 -0.64914,3.34816 0,1.77658 0.54664,3.10901 0.54664,1.29826 1.53742,2.22072 0.99079,0.88829 2.39155,1.40076 1.43493,0.51247 3.41649,0.51247 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.96976471px;line-height:0.69999999;font-family:'Hack Nerd Font Mono';-inkscape-font-specification:'Hack Nerd Font Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path829"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m -305.87254,181.22663 h -10.21531 v -4.88559 h 10.21531 v -2.66486 q 0,-6.32051 2.90402,-9.25869 2.86985,-2.97235 8.98537,-2.97235 h 7.55045 v 5.22723 h -7.14047 q -1.8449,0 -2.97235,0.37581 -1.09327,0.34165 -1.70824,0.99079 -1.33244,1.40076 -1.33244,4.91975 v 3.38232 h 13.1535 v 4.88559 h -13.1535 v 33.37913 h -6.28634 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.96976471px;line-height:0.69999999;font-family:'Hack Nerd Font Mono';-inkscape-font-specification:'Hack Nerd Font Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path831"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m -263.78135,181.22663 h -10.21532 v -4.88559 h 10.21532 v -2.66486 q 0,-6.32051 2.90401,-9.25869 2.86986,-2.97235 8.98538,-2.97235 h 7.55045 v 5.22723 h -7.14047 q -1.84491,0 -2.97235,0.37581 -1.09328,0.34165 -1.70825,0.99079 -1.33243,1.40076 -1.33243,4.91975 v 3.38232 h 13.1535 v 4.88559 h -13.1535 v 33.37913 h -6.28634 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.96976471px;line-height:0.69999999;font-family:'Hack Nerd Font Mono';-inkscape-font-specification:'Hack Nerd Font Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path833"
+       inkscape:connector-curvature="0" />
     <g
-       id="g917"
-       transform="translate(-377.97619,70.303571)">
-      <rect
-         inkscape:export-ydpi="7.4000001"
-         inkscape:export-xdpi="7.4000001"
-         inkscape:export-filename="/home/waldson/www/auto-form-filler/assets/img/logo.png"
-         y="37.330357"
-         x="6.8035707"
-         height="161.77382"
-         width="161.77382"
-         id="rect857"
-         style="opacity:0.9;vector-effect:none;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
-      <g
-         style="opacity:0.9"
-         transform="translate(2.1602432,1.2996636)"
-         inkscape:export-ydpi="7.4000001"
-         inkscape:export-xdpi="7.4000001"
-         inkscape:export-filename="/home/waldson/www/auto-form-filler/assets/img/logo.png"
-         id="g855">
-        <g
-           id="g828"
-           transform="translate(69.169643,10.417606)">
-          <path
-             inkscape:connector-curvature="0"
-             id="path10"
-             d="m 58.317925,69.458333 h 25.4951 v 0.755952"
-             style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <path
-             style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 58.317925,143.54166 h 25.495099 v 0.75595"
-             id="path12"
-             inkscape:connector-curvature="0" />
-          <path
-             inkscape:connector-curvature="0"
-             id="path14"
-             d="m 71.815475,69.83631 v 72.57143"
-             style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.96976471px;line-height:0.69999999;font-family:'Hack Nerd Font Mono';-inkscape-font-specification:'Hack Nerd Font Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="11.931376"
-           y="143.00252"
-           id="text823"><tspan
-             sodipodi:role="line"
-             id="tspan821"
-             x="11.931376"
-             y="143.00252"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hack Nerd Font Mono';-inkscape-font-specification:'Hack Nerd Font Mono';stroke-width:0.26458332">aff</tspan></text>
-      </g>
-    </g>
-    <g
-       id="g924"
-       inkscape:export-filename="/home/waldson/www/auto-form-filler/assets/img/action_logo.png"
-       inkscape:export-xdpi="7.4000001"
-       inkscape:export-ydpi="7.4000001">
-      <rect
-         inkscape:export-ydpi="7.4000001"
-         inkscape:export-xdpi="7.4000001"
-         inkscape:export-filename="/home/waldson/www/auto-form-filler/assets/img/action_logo.png"
-         y="71.726181"
-         x="26.458328"
-         height="161.77382"
-         width="161.77382"
-         id="rect857-3"
-         style="opacity:0.9;vector-effect:none;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+       id="g857"
+       inkscape:export-filename="/home/waldson/www/auto-form-filler/assets/img/logo_icon_only.png"
+       inkscape:export-xdpi="19.731289"
+       inkscape:export-ydpi="19.731289">
+      <path
+         style="opacity:1;vector-effect:none;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         d="M 26.458328,71.726181 H 188.23215 V 233.5 H 26.458328 Z"
+         id="rect857-3" />
       <g
          inkscape:export-ydpi="7.4000001"
          inkscape:export-xdpi="7.4000001"
