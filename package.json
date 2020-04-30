@@ -2,7 +2,7 @@
     "dependencies": {
         "bulma": "^0.8.1",
         "faker": "^4.1.0",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "jquery-sendkeys": "^4.0.0",
         "laravel-mix": "^5.0.4",
         "laravel-mix-alias": "^1.0.2",
